@@ -11,7 +11,7 @@ A JailBreak Warden rewrite with additional features.
 
 # CVARs
 **Core**
-- ```jb_menu_enabled``` "0 - normal chat messages, 1 - hint & centre text messages"
+- ```jb_simon_msg``` "0 - normal chat messages, 1 - hint & centre text messages"
 - ```jb_tag_enabled``` "Allow Simon to be added to the server tags?"
 - ```jb_beacon_enabled``` "Enable or Disable beacon on Simon"
 
