@@ -46,5 +46,5 @@ A JailBreak Warden rewrite with additional features.
 
 # TODO
 - Add option to play/stop music.
-- Test jb_ball.smx addon.
+- Test jb_ball.smx addon and if not working then update with [Simple Ball Plugin](https://forums.alliedmods.net/showthread.php?p=2423345).
 - Add simon.inc support in jb_box and jb_freekill addons.
