@@ -5,9 +5,9 @@ A JailBreak Warden rewrite with additional features.
 
 # Requirements
 - simon.inc for compiling the addons.
-- Hosties + LastRequest for checking OnAvailableLR and other JailBreak related stuff.
-- SmartJailDoors for opening and closing cell doors.
-- EmitSoundAny for playing countdown sounds.
+- [Hosties + LastRequest](https://forums.alliedmods.net/showthread.php?t=237045) for checking OnAvailableLR and other JailBreak related stuff.
+- [SmartJailDoors](https://github.com/Kailo97/smartjaildoors) for opening and closing cell doors.
+- [EmitSoundAny](https://forums.alliedmods.net/showthread.php?t=237045) for playing countdown sounds.
 
 # CVARs
 **Core**
