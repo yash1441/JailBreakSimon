@@ -3,7 +3,7 @@ public Plugin myinfo =
 	name = "Jailbreak Ball",
 	author = "Simon",
 	description = "Jailbreak Simon Add-on",
-	version = "1.0",
+	version = "1.1",
 	url = "yash1441@yahoo.com"
 }
 
@@ -44,7 +44,7 @@ public void InitializeVariables()
 
 public void OnPluginStart()
 {
-	RegConsoleCmd("ball", CommandBallMenu)
+	RegConsoleCmd("sm_ball", CommandBallMenu)
 	
 	AddNormalSoundHook(Event_SoundPlayed)
 	HookEvent("round_start", EventRoundStart)

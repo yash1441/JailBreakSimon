@@ -7,7 +7,7 @@
 #include <emitsoundany>
 #include <basecomm>
 
-#define PLUGIN_VERSION "7.0"
+#define PLUGIN_VERSION "7.1"
 
 #define DEFAULT_FLAGS 	FCVAR_NOTIFY
 
@@ -50,8 +50,10 @@ public OnPluginStart()
 	RegConsoleCmd("sm_fd", Freeday);
 	RegConsoleCmd("sm_freeday", Freeday);
 	RegConsoleCmd("sm_divide", TeamManagement);
-	RegConsoleCmd("sm_givehp", GiveHealth);
+	RegConsoleCmd("sm_teams", TeamManagement);
+	RegConsoleCmd("sm_hp", GiveHealth);
 	RegConsoleCmd("sm_countdown", StartCountdown);
+	RegConsoleCmd("sm_cd", StartCountdown);
 	RegConsoleCmd("sm_rebels", CheckRebels);
 	
 	g_bMenu = GetConVarBool(g_hMenu);

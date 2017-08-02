@@ -3,7 +3,7 @@
 #include <sdktools>
 #include <cstrike>
 
-#define PLUGIN_VERSION "3.0"
+#define PLUGIN_VERSION "3.1"
 
 Handle g_hMsg = INVALID_HANDLE;
 Handle g_fward_onBecome = INVALID_HANDLE;
@@ -42,7 +42,7 @@ public void OnPluginStart()
 	AddCommandListener(BlockKill, "kill");
 	AddCommandListener(HookPlayerChat, "say");
 	
-	RegConsoleCmd("nomic", Cmd_NoMic);
+	RegConsoleCmd("sm_nomic", Cmd_NoMic);
 	RegConsoleCmd("sm_simon", Cmd_ToggleSimon);
 	RegConsoleCmd("sm_s", Cmd_ToggleSimon);
 	RegAdminCmd("sm_remove", Cmd_RemoveSimon, ADMFLAG_GENERIC);

@@ -3,7 +3,7 @@
 #define DEBUG
 
 #define PLUGIN_AUTHOR "Simon"
-#define PLUGIN_VERSION "2.0"
+#define PLUGIN_VERSION "2.1"
 
 #define LoopClients(%1) for(int %1 = 1; %1 <= MaxClients; %1++)
 
@@ -20,7 +20,7 @@ public Plugin myinfo =
 {
 	name = "Jailbreak Freekill Report",
 	author = PLUGIN_AUTHOR,
-	description = "Freekill report for jailbreak",
+	description = "Jailbreak Simon Add-on",
 	version = PLUGIN_VERSION,
 	url = "yash1441@yahoo.com"
 };
@@ -122,7 +122,7 @@ public int FreekillerHandler(Handle menu, MenuAction action, int client, int ite
 		{
 			int  id = StringToInt(info);
 			CS_RespawnPlayer(id);
-			PrintToChatAll("<--- %N has been respawned -->", id);
+			PrintToChatAll(" \x04[JS] \x05%N \x01has been respawned by \x05%N\x01.", id, client);
 		}
 	}
 }

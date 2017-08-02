@@ -6,7 +6,7 @@
 
 #pragma semicolon 1
 
-#define PLUGIN_VERSION "2.0"
+#define PLUGIN_VERSION "2.1"
 
 Handle gH_Enabled = INVALID_HANDLE;
 
