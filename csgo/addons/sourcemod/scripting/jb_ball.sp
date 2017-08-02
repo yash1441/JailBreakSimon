@@ -222,7 +222,7 @@ public void OnMapStart()
 
 public Action Event_SoundPlayed(int clients[64], int &numClients, char sample[PLATFORM_MAX_PATH], int &entity,&channel, float &volume, int &level, int &pitch, int &flags) 
 {
-	if(g_Ball == entity && StrEqual(sample, ")weapons/hegrenade/he_bounce-1.wav"))
+	if(g_Ball == entity && StrEqual(sample, "~)weapons/hegrenade/he_bounce-1.wav"))
 	{
 		EmitSoundToAllAny("knastjunkies/bounce.mp3", entity)
 		
