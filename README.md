@@ -35,6 +35,7 @@ A JailBreak Warden rewrite with additional features.
 - ```!cells``` "Shortcut for Open/Close Cells."
 - ```!fd``` | ```!freeday``` "Shortcut for Freeday menu. Specific person or everyone."
 - ```!divide``` | ```!teams``` "Shortcut for Team Division menu. Divide by 2/3/4 and remove the divisions."
+![Team Screenshot](https://steamuserimages-a.akamaihd.net/ugc/496889383573420745/C48FF9A3B6FB0987768C3C912E7BC7FDF0A35A81/)
 - ```!hp``` "Shortcut for Giving Prisoners 100 HP."
 - ```!countdown``` | ```!cd``` "Shortcut for Countdown menu if without any parameter else starts countdown of specified amount of seconds. Plays sound when the countdown is/reaches less than or equal to 15 seconds."
 - ```!rebels``` "Shortcut for Checking Rebels."
