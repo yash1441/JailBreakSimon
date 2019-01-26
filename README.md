@@ -30,6 +30,7 @@ A JailBreak Warden rewrite with additional features.
 
 **Menu**
 - ```!menu``` "Opens the menu."
+![Menu Screenshot](https://steamuserimages-a.akamaihd.net/ugc/576821368994132225/F1D85894F45EBEBF9371E86DA1B62036FDF6E610/)
 - ```!amenu``` "Opents the Admin's menu."
 - ```!cells``` "Shortcut for Open/Close Cells."
 - ```!fd``` | ```!freeday``` "Shortcut for Freeday menu. Specific person or everyone."
@@ -40,6 +41,7 @@ A JailBreak Warden rewrite with additional features.
 
 **Box**
 - ```!box``` "Enable/Disable box mode for prisoners."
+![Box Screenshot](https://steamuserimages-a.akamaihd.net/ugc/576821368994132717/4EAB66B681C553AFC2B387E9BD5CD119148C3CFC/)
 
 **Freekill**
 - ```!freekill``` | ```!fk``` "Ask a CT for respawn upon getting Freekilled. Won't work twice so won't spam."
